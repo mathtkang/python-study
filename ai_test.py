@@ -33,4 +33,4 @@ print(time2 + timedelta(days=1, hours=-2))  # 2018-07-24 18:58:59.666626
 d0 = date(2008, 8, 18)  # date 객체1
 d1 = date(2008, 9, 26)  # date 객체2
 delta = d0 - d1  # 빼기
-print delta.days  # 날짜로 계산
+print(delta.days)  # 날짜로 계산
