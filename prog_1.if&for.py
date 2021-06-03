@@ -5,7 +5,7 @@ if age >= 60:
     # return ~~
 elif age < 60 or age >= 20:  # else if 를 줄여서 elif 로 사용
     print('성인')
-else:  # age <20 인 경우
+else:  # age < 20 인 경우
     print('청소년')
 
 # 파이썬에서는 논리연산자(||, &&)를 사용할 수 없다
@@ -13,7 +13,7 @@ else:  # age <20 인 경우
 
 # 파이썬에서는 ==를 두번 연속해서 사용가능
 if a == b == c:
-    return
+    print(a)
 
 # for문, 딕셔너리 같이 사용
 ages = {
