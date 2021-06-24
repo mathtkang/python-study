@@ -8,3 +8,24 @@
 # - print_area(3)를 호출했을 때 원의 넓이가 정상적으로 출력되도록 하세요.
 # 1. 반지름 3.141592 를 math 모듈을 import하고 그 안에 있는 상수 math.pi로 수정하세요.
 # 2. 중복되는 조건문을 수정하여 원의 크기가 20보다 클 때 더 큰 원입니다. 를 출력하도록 하세요.
+
+import math
+
+
+def get_area(radius):
+    area = math.pi * radius * radius
+    print("원의 넓이:", area)
+    return area
+
+
+def print_area(radius):
+    if radius > 20:
+        print("더 큰 원입니다.")
+    elif radius > 10:
+        print("큰 원입니다.")
+    else:
+        print("작은 원입니다.")
+
+
+result = get_area(3)
+print_area(result)
